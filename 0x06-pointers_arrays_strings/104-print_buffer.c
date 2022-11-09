@@ -3,6 +3,11 @@
 
 /**
  * print_line - prints a s bytes of a buffer
+ * @c: buffer to print
+ * @s: bytes of buffer to print
+ * @l: line of buffer to print
+ *
+ * Return: void
  */
 
 void print_line(char *c, int s, int l)
@@ -25,9 +30,13 @@ void print_line(char *c, int s, int l)
 		else
 			putchar('.');
 /**
-	 
  * print_buffer - prints a buffer
+ * @b: buffer to print
+ * @size: size of buffer
+ *
+ * Return: void
  */
+
 void print_buffer(char *b, int size)
 {
 	int i;
