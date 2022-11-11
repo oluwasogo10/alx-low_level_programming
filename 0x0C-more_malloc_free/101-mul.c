@@ -1,4 +1,4 @@
-i#include "main.h"
+#include "main.h"
 
 /**
  * _print - moves a string one place to the left and prints the string
@@ -75,6 +75,7 @@ int check_for_digits(char **av)
 	{
 		for (j = 0; av[i][j]; j++)
 		{
+
 			if (av[i][j] < '0' || av[i][j] > '9')
 				return (1);
 		}
@@ -98,11 +99,11 @@ void init(char *str, int l)
 	str[i] = '\0';
 }
 
+
 /**
  * main - multiply two numbers
  * @argc: number of arguments
  * @argv: argument vector
- *
  *
  * Return: zero, or exit status of 98 if failure
  */
